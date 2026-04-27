@@ -1,0 +1,129 @@
+.plecement-marquee-section {
+  background-image: url(/public/images/homepage/placement-bg.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: normal;
+  padding: 3rem 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.students-heading {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.students-heading span {
+  color: #df2d00;
+}
+
+.students-marquee {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  white-space: nowrap;
+}
+
+.marquee-group {
+  display: flex;
+  animation: scroll 25s linear infinite;
+}
+
+.marquee-group.reverse {
+  animation: scroll-reverse 25s linear infinite;
+}
+
+.student-card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 30px;
+  margin: 0 20px;
+  width: 220px;
+  text-align: center;
+  flex-shrink: 0;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+
+
+}
+
+
+.student-photo {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #000000;
+  margin-bottom: 10px;
+}
+
+.student-info h4 {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 5px;
+  color: black;
+}
+
+.package {
+  color: #6c6c6c;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+
+.company {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  color: rgb(255, 0, 0);
+}
+
+.company img {
+  height: 30px;
+  width: 50px;
+  filter: brightness(0) invert(1);
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes scroll-reverse {
+  0% {
+    transform: translateX(-50%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.reverse {
+  animation-direction: reverse;
+}
+
+@media (max-width: 768px) {
+  .students-heading {
+    font-size: 2rem;
+  }
+
+  .student-card {
+    width: 160px;
+    padding: 10px;
+  }
+
+  .student-photo {
+    width: 70px;
+    height: 70px;
+  }
+}
