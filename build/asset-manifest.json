@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/monzcreativeschool/static/css/main.d5b3f096.css",
-    "main.js": "/monzcreativeschool/static/js/main.65bb5515.js",
-    "static/media/home-why-bg.webp": "/monzcreativeschool/static/media/home-why-bg.5f56ee4665133e9a54f4.webp",
-    "static/media/studentworkbg.webp": "/monzcreativeschool/static/media/studentworkbg.4d3bdcb3c383a35d3248.webp",
-    "static/media/branchbg.webp": "/monzcreativeschool/static/media/branchbg.b64630c782f5a31074df.webp",
-    "static/media/testimonialbg.webp": "/monzcreativeschool/static/media/testimonialbg.f79217cd67189cc3d7c3.webp",
-    "static/media/footerbg.webp": "/monzcreativeschool/static/media/footerbg.9d8951e1bf7bdbf51d2b.webp",
-    "static/media/careerinfo.webp": "/monzcreativeschool/static/media/careerinfo.eaf64710b8dda0a2186a.webp",
-    "static/media/placement-bg.svg": "/monzcreativeschool/static/media/placement-bg.f1a719f2f4c117601b51.svg",
-    "index.html": "/monzcreativeschool/index.html",
-    "main.d5b3f096.css.map": "/monzcreativeschool/static/css/main.d5b3f096.css.map",
-    "main.65bb5515.js.map": "/monzcreativeschool/static/js/main.65bb5515.js.map"
+    "main.css": "/static/css/main.95071167.css",
+    "main.js": "/static/js/main.28724d42.js",
+    "static/media/home-why-bg.webp": "/static/media/home-why-bg.5f56ee4665133e9a54f4.webp",
+    "static/media/studentworkbg.webp": "/static/media/studentworkbg.4d3bdcb3c383a35d3248.webp",
+    "static/media/branchbg.webp": "/static/media/branchbg.b64630c782f5a31074df.webp",
+    "static/media/testimonialbg.webp": "/static/media/testimonialbg.f79217cd67189cc3d7c3.webp",
+    "static/media/footerbg.webp": "/static/media/footerbg.9d8951e1bf7bdbf51d2b.webp",
+    "static/media/careerinfo.webp": "/static/media/careerinfo.eaf64710b8dda0a2186a.webp",
+    "static/media/placement-bg.svg": "/static/media/placement-bg.f1a719f2f4c117601b51.svg",
+    "index.html": "/index.html",
+    "main.95071167.css.map": "/static/css/main.95071167.css.map",
+    "main.28724d42.js.map": "/static/js/main.28724d42.js.map"
   },
   "entrypoints": [
-    "static/css/main.d5b3f096.css",
-    "static/js/main.65bb5515.js"
+    "static/css/main.95071167.css",
+    "static/js/main.28724d42.js"
   ]
 }
