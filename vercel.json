@@ -1,5 +1,5 @@
 {
     "rewrites": [
-      { "source": "/(.*)", "destination": "https://monzcreativeschool.com/" }
+      { "source": "/(.*)", "destination": "/" }
     ]
   }
