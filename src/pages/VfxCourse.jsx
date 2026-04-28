@@ -2,7 +2,7 @@ import React from "react";
 import "./CoursesPageStyle.css";
 import StudentsWork from "../components/StudentsWork";
 import PlacementMarquee from "../components/PlacementMarquee";
-import { Container, Row, Col, Card } from "react-bootstrap"; 
+import { Container, Card } from "react-bootstrap"; 
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
@@ -10,7 +10,6 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import Accordion from "react-bootstrap/Accordion";
-import { Link } from "react-router-dom";
 import Footer from "../components/Footer";
 
 

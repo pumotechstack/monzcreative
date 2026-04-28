@@ -12,12 +12,9 @@ import "swiper/css/pagination";
 import "../homepage.css";
 import BranchAccordion from "../components/BranchAccordion";
 import Footer from "../components/Footer";
-import Menu from "../components/Menu";
 import EnquiryModal from "../components/EnquiryForm";
 
 export default function HomePage() {
-  const [setShow] = useState(false);
-
   const { scrollY } = useScroll();
   const formRef = useRef(null);
   const isInView = useInView(formRef, { once: false, amount: 0.3 });
