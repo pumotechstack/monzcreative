@@ -39,7 +39,7 @@ const EnquiryModal = ({ show, handleClose, modalType }) => {
           <span className="red_color">Wait! Before you go,</span>
         </h4>
 
-        <h5 className="popup-title">Here is a 20% Discount.</h5>
+        <h5 className="popup-title">Here is a 30% Discount.</h5>
         <p className="popup-subtitle">in your Course Fee</p>
 
         <form className="popup-form" onSubmit={handleSubmit}>
@@ -56,6 +56,7 @@ const EnquiryModal = ({ show, handleClose, modalType }) => {
             <option value="Coimbatore - Gandhipuram">Coimbatore - Gandhipuram</option>
             <option value="Coimbatore - Malumichampatti">Coimbatore - Malumichampatti</option>
             <option value="Coimbatore - Saravanampatti">Coimbatore - Saravanampatti</option>
+            <option value="Coimbatore - Thudiyalur">Coimbatore - Thudiyalur</option>
             <option value="Tiruppur">Tiruppur</option>
             <option value="Chennai - Vadapalani">Chennai - Vadapalani</option>
             <option value="Chennai - Poonamallee">Chennai - Poonamallee</option>

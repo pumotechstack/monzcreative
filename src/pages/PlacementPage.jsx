@@ -395,8 +395,6 @@ function PlacementPage() {
         </Container>
       </section>
 
-   
-
       <section className="placement-journey-section">
         <Container>
           <h2 className="placement-journey-title">Your Journey</h2>
@@ -405,7 +403,7 @@ function PlacementPage() {
             the way.
           </p>
 
-          <Row className="journey-cards-row justify-content-center">
+          <Row className="journey-cards-row justify-content-between">
             <Col xs={12} sm={6} md={4} lg={2}>
               <div className="journey-card d-flex flex-column">
                 <BookOpen className="journey-icon" size={64} />

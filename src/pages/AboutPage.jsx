@@ -26,7 +26,7 @@ const About = () => {
       <section className="about-hero-section d-flex align-items-center text-center text-light">
         <Container>
           <h1 className="display-4 fw-bold" data-aos="fade-up">
-            About <span className="text-danger">Monz Creative School</span>
+            About <span>Monz Creative School</span>
           </h1>
           <p
             className="lead mt-3 mx-auto about-hero-text"

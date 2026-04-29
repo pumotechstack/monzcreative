@@ -149,7 +149,7 @@ function App() {
           element={<GraphicDesignCourseSaravanampatti />}
         />
         <Route
-          path="/it-training-course-in-coimbatore"
+          path="/it-training-institute-in-coimbatore"
           element={<ItTrainingCourseCoimbatore />}
         />
         <Route

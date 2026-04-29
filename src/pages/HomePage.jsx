@@ -171,7 +171,7 @@ export default function HomePage() {
                 className="form-box p-4"
               >
                 <h3 className="form-title">Fill the Form Now!</h3>
-                <h2 className="discount-text">Grab Your 20% Discount</h2>
+                <h2 className="discount-text">Grab Your 30% Discount</h2>
 
                 <Form className="hero-form" onSubmit={handleSubmit}>
 
@@ -225,6 +225,10 @@ export default function HomePage() {
 
                       <option value="Coimbatore - Saravanampatti">
                         Coimbatore - Saravanampatti
+                      </option>
+
+                      <option value="Coimbatore - Thudiyalur">
+                        Coimbatore - Thudiyalur
                       </option>
 
                       <option value="Tiruppur">Tiruppur</option>
