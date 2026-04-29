@@ -10,8 +10,6 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import Accordion from "react-bootstrap/Accordion";
-import Footer from "../components/Footer";
-
 
 const VfxCourse = () => {
   return (
@@ -582,7 +580,6 @@ const VfxCourse = () => {
       </Accordion.Item> 
     </Accordion>
     </section>
-    <Footer />
     </>
   );
 };

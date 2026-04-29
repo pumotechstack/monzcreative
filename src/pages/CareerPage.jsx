@@ -1,12 +1,11 @@
 import React from "react";
 import "./careerpage.css";
-import Footer from "../components/Footer";
 import { useState } from "react";
 import { Container, Row, Col, Button, Modal, Form } from "react-bootstrap";
 
 export default function CareerPage() {
   const [showEnquiry, setShowEnquiry] = useState(false);
-  
+
   return (
     <>
       <section className="hero parallax-layer">
@@ -22,7 +21,7 @@ export default function CareerPage() {
       <section className="application-section">
         <Container>
           <Row className="application-row">
-           
+
             <div className="col-right illustration-area">
               <img
                 src="/images/careerpage/formimage.webp"
@@ -82,7 +81,7 @@ export default function CareerPage() {
       <section className="career-intro-section">
         <Container>
           <Row className="career-row">
-         
+
             <div className="col-left">
               <h2 className="career-title">
                 Career Opportunities at Monz Creative School
@@ -119,7 +118,7 @@ export default function CareerPage() {
               </p>
             </div>
 
-        
+
             <div className="col-right">
               <img
                 src="/images/careerpage/careerinfo.webp"
@@ -138,7 +137,7 @@ export default function CareerPage() {
               What We Believe <br /> at Monz Creative School
             </h2>
 
-         
+
             <div className="value_card col-12">
               <h3>Creativity First</h3>
               <p>
@@ -148,7 +147,7 @@ export default function CareerPage() {
               </p>
             </div>
 
-         
+
             <div className="value_card col-12">
               <h3>Learning by Doing</h3>
               <p>
@@ -158,7 +157,7 @@ export default function CareerPage() {
               </p>
             </div>
 
-      
+
             <div className="value_card col-12">
               <h3>Industry-Minded Growth</h3>
               <p>
@@ -168,7 +167,7 @@ export default function CareerPage() {
               </p>
             </div>
 
-       
+
             <div className="value_card col-12">
               <h3>Above & Beyond Professionalism</h3>
               <p>
@@ -243,7 +242,7 @@ export default function CareerPage() {
                   </p>
                 </div>
               </div>
- 
+
               <div className="col-lg-4 col-md-6 col-12 career_col">
                 <div className="career_card">
                   <div className="career_img_wrapper">
@@ -265,7 +264,7 @@ export default function CareerPage() {
                   <div className="career_img_wrapper">
                     <img
                       src="https://monzcreativeschool.com/assets/images/banner/popular-courses/game.png"
-                      alt="VFX Artist"/>
+                      alt="VFX Artist" />
 
                   </div>
                   <h3>VFX Artist</h3>
@@ -340,78 +339,75 @@ export default function CareerPage() {
         </Container>
       </section>
       <section className="cta_section">
-  <div className="cta_overlay"></div>
+        <div className="cta_overlay"></div>
 
-  <Container>
-    <Row className="justify-content-center">
-      <Col lg={10} className="text-center cta_content">
+        <Container>
+          <Row className="justify-content-center">
+            <Col lg={10} className="text-center cta_content">
 
-        <h2 className="cta_title">Start Your Creative Career Today</h2>
+              <h2 className="cta_title">Start Your Creative Career Today</h2>
 
-        <p className="cta_subtitle">
-          Join Monz Creative School and turn your passion into a
-          professional career in design, animation, editing, VFX & more.
-        </p>
+              <p className="cta_subtitle">
+                Join Monz Creative School and turn your passion into a
+                professional career in design, animation, editing, VFX & more.
+              </p>
 
-        <Button
-          variant="danger"
-          size="lg"
-          className="mt-4"
-          onClick={() => setShowEnquiry(true)}
-        >
-          Enquire Now
-        </Button>
+              <Button
+                variant="danger"
+                size="lg"
+                className="mt-4"
+                onClick={() => setShowEnquiry(true)}
+              >
+                Enquire Now
+              </Button>
 
-        <Modal
-          show={showEnquiry}
-          onHide={() => setShowEnquiry(false)}
-          centered
-          size="lg"
-          backdrop="static"
-          keyboard={false}
-          className="enquiry-modal"
-        >
-          <Modal.Body className="enquiry-body">
-            <button
-              className="enquiry-close-btn"
-              onClick={() => setShowEnquiry(false)}
-              aria-label="Close"
-            >
-              ✕
-            </button>
+              <Modal
+                show={showEnquiry}
+                onHide={() => setShowEnquiry(false)}
+                centered
+                size="lg"
+                backdrop="static"
+                keyboard={false}
+                className="enquiry-modal"
+              >
+                <Modal.Body className="enquiry-body">
+                  <button
+                    className="enquiry-close-btn"
+                    onClick={() => setShowEnquiry(false)}
+                    aria-label="Close"
+                  >
+                    ✕
+                  </button>
 
-            <div className="enquiry-card">
-              <h3 className="enquiry-title">Book Your Free Demo</h3>
+                  <div className="enquiry-card">
+                    <h3 className="enquiry-title">Book Your Free Demo</h3>
 
-              <Form className="enquiry-form">
-                <Form.Control type="text" placeholder="Full Name" className="enquiry-input" />
-                <Form.Control type="email" placeholder="Email Address" className="enquiry-input" />
-                <Form.Control type="tel" placeholder="Mobile Number" className="enquiry-input" />
+                    <Form className="enquiry-form">
+                      <Form.Control type="text" placeholder="Full Name" className="enquiry-input" />
+                      <Form.Control type="email" placeholder="Email Address" className="enquiry-input" />
+                      <Form.Control type="tel" placeholder="Mobile Number" className="enquiry-input" />
 
-                <Form.Select className="enquiry-input">
-                  <option value="">Course Interested</option>
-                  <option>Animation</option>
-                  <option>Graphic Design</option>
-                  <option>UI / UX Design</option>
-                  <option>VFX</option>
-                </Form.Select>
+                      <Form.Select className="enquiry-input">
+                        <option value="">Course Interested</option>
+                        <option>Animation</option>
+                        <option>Graphic Design</option>
+                        <option>UI / UX Design</option>
+                        <option>VFX</option>
+                      </Form.Select>
 
-                <Button className="enquiry-submit-btn">
-                  Submit Enquiry
-                </Button>
-              </Form>
-            </div>
+                      <Button className="enquiry-submit-btn">
+                        Submit Enquiry
+                      </Button>
+                    </Form>
+                  </div>
 
-          </Modal.Body>
-        </Modal>
+                </Modal.Body>
+              </Modal>
 
-      </Col>
-    </Row>
-  </Container>
-</section>
-
-
-      <Footer />
+            </Col>
+          </Row>
+        </Container>
+      </section>
     </>
   );
 }

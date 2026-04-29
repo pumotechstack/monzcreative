@@ -11,7 +11,6 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "../homepage.css";
 import BranchAccordion from "../components/BranchAccordion";
-import Footer from "../components/Footer";
 import EnquiryModal from "../components/EnquiryForm";
 
 export default function HomePage() {
@@ -76,7 +75,6 @@ export default function HomePage() {
 
   return (
     <>
-      {/* ======= Banner Section ======= */}
       <section className="banner-section">
         <motion.div
           className="banner-bg"
@@ -854,36 +852,34 @@ export default function HomePage() {
         </div>
       </section>
 
-        {/* CTA SECTION */}
-        <section className="cta-section text-center">
-          <Container>
-            <Row className="justify-content-center">
-              <Col lg={8}>
-                <h2 className="cta-heading">
-                  Ready to Start Your Creative Journey?
-                </h2>
-                <p className="cta-subtext">
-                  Join thousands of successful students who transformed their
-                  careers with us
-                </p>
+      {/* CTA SECTION */}
+      <section className="cta-section text-center">
+        <Container>
+          <Row className="justify-content-center">
+            <Col lg={8}>
+              <h2 className="cta-heading">
+                Ready to Start Your Creative Journey?
+              </h2>
+              <p className="cta-subtext">
+                Join thousands of successful students who transformed their
+                careers with us
+              </p>
 
-                <div className="cta-buttons">
-                  <Button className="cta-btn-dark">
-                    <a className="redirect-bt" href="/courses">
-                      View all Courses
-                    </a>
-                  </Button>
+              <div className="cta-buttons">
+                <Button className="cta-btn-dark">
+                  <a className="redirect-bt" href="/courses">
+                    View all Courses
+                  </a>
+                </Button>
 
-                  <EnquiryModal/>
+                <EnquiryModal />
 
-                </div>
-              </Col>
-            </Row>
-          </Container>
-        </section>
-
+              </div>
+            </Col>
+          </Row>
+        </Container>
+      </section>
       <BranchAccordion />
-      <Footer />
     </>
   );
 }

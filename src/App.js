@@ -36,11 +36,12 @@ import JewelleryCaddDesignCourseCoimbatore from "./pages/JewelleryCaddDesignCour
 import JewelleryCaddDesignCourseSaravanampatti from "./pages/JewelleryCaddDesignCourseSaravanampatti";
 import "./App.css";
 import Menu from "./components/Menu";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-     <div>
-        <Menu />
+    <div>
+      <Menu />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />
@@ -160,7 +161,8 @@ function App() {
           element={<JewelleryCaddDesignCourseSaravanampatti />}
         />
       </Routes>
-     </div>
+      <Footer />
+    </div>
   );
 }
 export default App;

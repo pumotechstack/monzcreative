@@ -28,7 +28,7 @@ const Menu = () => {
                 <NavLink to="/" end className="link">Home</NavLink>
                 <NavLink to="/about" className="link">About</NavLink>
                 <NavLink to="/placement" className="link">Placement</NavLink>
-                <NavLink to="/work" className="link">Work</NavLink>
+                <NavLink to="/Courses" className="link">Courses</NavLink>
                 <NavLink to="/contact" className="link">Contact</NavLink>
                 <NavLink to="/careers" className="link">Careers</NavLink>
             </nav>

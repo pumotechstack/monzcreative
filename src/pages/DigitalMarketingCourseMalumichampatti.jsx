@@ -7,8 +7,6 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import Accordion from "react-bootstrap/Accordion";
-import Footer from "../components/Footer";
-import Menu from "../components/Menu";
 import DigitakMarketingCourseTools from "../components/DigitalMarketingCourseTools";
 import { BsChatHeartFill } from "react-icons/bs";
 import { FaPhoneVolume, FaWhatsapp } from "react-icons/fa";
@@ -85,7 +83,6 @@ const DigitalMarketingCourseMalumichampatti = () => {
   ];
   return (
     <>
-      <Menu />
       <section className="vfx-hero">
         <Container>
           <Row>
@@ -717,7 +714,6 @@ const DigitalMarketingCourseMalumichampatti = () => {
           </Row>
         </Container>
       </section>
-      <Footer />
     </>
   );
 };

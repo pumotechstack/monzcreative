@@ -5,7 +5,6 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import "../components/css/About.css";
 import { XCircleFill, CheckCircleFill } from "react-bootstrap-icons";
-import Footer from "../components/Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
 import PopUpForm from "../components/PopUpForm"
 
@@ -23,7 +22,7 @@ const About = () => {
   }, []);
 
   return (
-    <section className="about-page">
+    <>
       <section className="about-hero-section d-flex align-items-center text-center text-light">
         <Container>
           <h1 className="display-4 fw-bold" data-aos="fade-up">
@@ -167,6 +166,7 @@ const About = () => {
           </Row>
         </Container>
       </section>
+
       <section className="mission-section py-5">
         <Container>
           <Row className="align-items-center">
@@ -405,13 +405,7 @@ const About = () => {
           </Row>
         </Container>
       </section>
-
-
-
-
-
-      <Footer />
-    </section>
+    </>
   );
 };
 

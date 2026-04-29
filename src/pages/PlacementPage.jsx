@@ -1,12 +1,9 @@
 import React from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
-
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-
 import "../components/css/PlacementPage.css";
-import Footer from "../components/Footer";
 
 import {
   Briefcase,
@@ -579,8 +576,6 @@ function PlacementPage() {
           </Row>
         </Container>
       </section>
-
-      <Footer />
     </div>
   );
 }

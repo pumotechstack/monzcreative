@@ -3,13 +3,11 @@ import { Container, Row, Col } from "react-bootstrap";
 import "../components/css/ContactPage.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Link } from "react-router-dom";
-import Footer from "../components/Footer";
 
 const ContactPage = () => {
   return (
     <>
-
-<section className="navbar-section shadow-sm py-3">
+      <section className="navbar-section shadow-sm py-3">
         <Container>
           <Row className="align-items-center">
             <Col xs={6} md={3}>
@@ -29,11 +27,11 @@ const ContactPage = () => {
             <Col xs={6} md={9}>
               <ul className="nav justify-content-end align-items-center">
 
-              <li>
-  <Link className="dropdown-item" to="/">
-    Home
-  </Link>
-</li>
+                <li>
+                  <Link className="dropdown-item" to="/">
+                    Home
+                  </Link>
+                </li>
                 <li className="nav-item dropdown">
                   <a
                     className="nav-link dropdown-toggle fw-semibold"
@@ -83,9 +81,9 @@ const ContactPage = () => {
                 </li>
 
                 <li className="nav-item">
-                <Link className="nav-link fw-semibold" to="/placement">
-  Placement
-</Link>
+                  <Link className="nav-link fw-semibold" to="/placement">
+                    Placement
+                  </Link>
 
                 </li>
                 <li className="nav-item">
@@ -94,24 +92,23 @@ const ContactPage = () => {
                   </a>
                 </li>
                 <li className="nav-item">
-                <Link className="nav-link fw-semibold" to="/about">
-                 About
-                </Link>
+                  <Link className="nav-link fw-semibold" to="/about">
+                    About
+                  </Link>
                 </li>
                 <li className="nav-item">
-  <Link className="nav-link fw-semibold" to="/contact">
-    Contact
-  </Link>
-</li>
+                  <Link className="nav-link fw-semibold" to="/contact">
+                    Contact
+                  </Link>
+                </li>
               </ul>
             </Col>
           </Row>
         </Container>
       </section>
 
-    
       <section className="creative-hero">
-       
+
         <div className="floating-triangle"></div>
         <div className="floating-circle"></div>
         <div className="floating-square"></div>
@@ -144,11 +141,10 @@ const ContactPage = () => {
         </Container>
       </section>
 
-     
       <section className="contact-section py-5">
         <Container>
           <Row className="gy-4 align-items-start">
-           
+
             <Col lg={5} md={6}>
               <div className="contact-info">
                 <h2 className="contact-title">Get In Touch</h2>
@@ -183,18 +179,18 @@ const ContactPage = () => {
                   </div>
                 </div>
 
-               
+
               </div>
             </Col>
 
-         
+
             <Col lg={7} md={6}>
               <div className="contact-form">
                 <form>
-                <h2 className="form-head">ENQUIRY FORM</h2>
+                  <h2 className="form-head">ENQUIRY FORM</h2>
                   <Row className="g-3">
                     <Col md={6}>
-                   
+
                       <div className="form-group">
                         <label>Name *</label>
                         <input type="text" placeholder="Your name" required />
@@ -250,30 +246,28 @@ const ContactPage = () => {
       </section>
 
       <section className="creative-showcase-section">
-  <div className="container">
-    <div className="row justify-content-center">
-      <div className="col-lg-10">
-        <div className="showcase-wrapper">
-          <img
-            src="https://media.istockphoto.com/id/1322783086/vector/crowd.jpg?s=612x612&w=0&k=20&c=IKM4kPVkZafEKGOUVq9BrgVilxeSpIO6-hLrv8DeSVo="
-            alt="Creative Team"
-            className="showcase-image"
-          />
-          <div className="showcase-badge top-right">
-            <h3>95%</h3>
-            <p>Success Rate</p>
-          </div>
-          <div className="showcase-badge bottom-left">
-            <h3>500+</h3>
-            <p>Creative Minds</p>
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-10">
+              <div className="showcase-wrapper">
+                <img
+                  src="https://media.istockphoto.com/id/1322783086/vector/crowd.jpg?s=612x612&w=0&k=20&c=IKM4kPVkZafEKGOUVq9BrgVilxeSpIO6-hLrv8DeSVo="
+                  alt="Creative Team"
+                  className="showcase-image"
+                />
+                <div className="showcase-badge top-right">
+                  <h3>95%</h3>
+                  <p>Success Rate</p>
+                </div>
+                <div className="showcase-badge bottom-left">
+                  <h3>500+</h3>
+                  <p>Creative Minds</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-  </div>
-</section>
- <Footer />
-
+      </section>
     </>
   );
 };

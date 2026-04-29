@@ -7,8 +7,6 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import Accordion from "react-bootstrap/Accordion";
-import Footer from "../components/Footer";
-import Menu from "../components/Menu";
 import AnimationCourseTools from "../components/AnimationCourseTools";
 import { BsChatHeartFill } from "react-icons/bs";
 import { FaPhoneVolume, FaWhatsapp } from "react-icons/fa";
@@ -85,7 +83,6 @@ const AnimationCourseCoimabtiore = () => {
   ];
   return (
     <>
-      <Menu />
       <section className="vfx-hero">
         <Container>
           <Row>
@@ -99,14 +96,14 @@ const AnimationCourseCoimabtiore = () => {
               No.1 animation training institute in Coimabtore with 100%
               placement
             </p>
-                        <div className="vfx-buttons">
-            
-                          <a href="tel:9626010008" className="cta-btn-banner">
-                      <FaPhoneVolume className="cta-icon" />
-                      <span>Get 30% Off – Call 9626010008 Now</span>
-                    </a>
-                
-                        </div>
+            <div className="vfx-buttons">
+
+              <a href="tel:9626010008" className="cta-btn-banner">
+                <FaPhoneVolume className="cta-icon" />
+                <span>Get 30% Off – Call 9626010008 Now</span>
+              </a>
+
+            </div>
           </Row>
         </Container>
       </section>
@@ -400,19 +397,19 @@ const AnimationCourseCoimabtiore = () => {
       </section>
 
       <section className="floating-icons">
-      <div className="floating-cta">
-  <a href="tel:9626010008" className="cta-float call">
-    <FaPhoneVolume />
-  </a>
-  <a
-    href="https://wa.me/919626010008"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="cta-float whatsapp">
-    <FaWhatsapp />
-  </a>
-</div>
-</section>
+        <div className="floating-cta">
+          <a href="tel:9626010008" className="cta-float call">
+            <FaPhoneVolume />
+          </a>
+          <a
+            href="https://wa.me/919626010008"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="cta-float whatsapp">
+            <FaWhatsapp />
+          </a>
+        </div>
+      </section>
 
       <section className="faq-section py-5">
         <Container>
@@ -495,7 +492,6 @@ const AnimationCourseCoimabtiore = () => {
           </Row>
         </Container>
       </section>
-      <Footer />
     </>
   );
 };

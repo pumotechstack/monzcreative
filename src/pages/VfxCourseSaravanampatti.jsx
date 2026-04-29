@@ -7,7 +7,6 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import Accordion from "react-bootstrap/Accordion";
-import Footer from "../components/Footer";
 import VfxCourseTools from "../components/VfxCourseTools";
 import { BsChatHeartFill } from "react-icons/bs";
 import { FaPhoneVolume, FaWhatsapp } from "react-icons/fa";
@@ -575,7 +574,6 @@ const VfxCourseSaravanampatti = () => {
           </Row>
         </Container>
       </section>
-      <Footer />
     </>
   );
 };

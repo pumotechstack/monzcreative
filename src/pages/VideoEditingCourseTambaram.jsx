@@ -7,8 +7,6 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import Accordion from "react-bootstrap/Accordion";
-import Footer from "../components/Footer";
-import Menu from "../components/Menu";
 import VideoEditingCourseTools from "../components/VideoEditingCourseTools";
 import { BsChatHeartFill } from "react-icons/bs";
 
@@ -84,7 +82,6 @@ const VideoEditingCourseTambaram = () => {
   ];
   return (
     <>
-      <Menu />
       <section className="vfx-hero">
         <Container>
           <Row>
@@ -619,7 +616,6 @@ const VideoEditingCourseTambaram = () => {
           </Row>
         </Container>
       </section>
-      <Footer />
     </>
   );
 };
